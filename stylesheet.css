@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* header{ */
+    /* height: 75px; */
+    /* line-height: 75px; */
+    /* border-bottom: solid 3px red; */
+.main{
+    height: 75px;
+    line-height: 75px;
+}
+.intro{
+    display: inline-block;
+    color: red;
+}
+.logo1{
+    display: inline-flex;
+}
+.logo{
+    height: 70px;
+    width: 60px;
+    display: inline-block;
+    margin-left: 5px;
+}
+h1{
+    font-weight: bolder;
+    margin-left: 75px;
+    
+}
+nav{
+    float: right;
+}
+ul{
+    list-style-type: none;
+    margin-top: 20px;
+}
+li{
+    display: inline-block;
+    margin-left: 30px;
+    margin-right: 8px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    transition: ease-out 0.1s;
+    font-size: large;
+    color: salmon;
+}
+a:hover{
+    color: lime;
+    text-decoration: none;
+}
+
+header{
+    background-image: url(images/man-holding-brown-rope-3253501.jpg);
+    background-size: 100vw;
+    /* width: 100vw; */
+    height: 100vh;
+}
